@@ -67,7 +67,9 @@ public:
 		/// HTTP proxy server configuration.
 	{
 		ProxyConfig():
-			port(HTTP_PORT), protocol("http"), tunnel(true)
+			port(HTTP_PORT),
+			protocol("http"),
+			tunnel(true)
 		{
 		}
 
